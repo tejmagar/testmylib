@@ -23,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        ImageConverter.sayHello();
+        System.out.println(ImageConverter.convert(1, 2));
     }
 }
