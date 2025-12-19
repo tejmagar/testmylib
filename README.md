@@ -18,6 +18,6 @@
 ```
 
 	dependencies {
-	        implementation 'com.github.tejmagar:testmylib:Tag'
+	        implementation 'com.github.tejmagar:testmylib:0c83c8cc24'
 	}
 ```
