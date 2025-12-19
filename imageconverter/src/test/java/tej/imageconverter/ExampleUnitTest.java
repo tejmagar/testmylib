@@ -1,4 +1,4 @@
-package tej.imageconverterdemo;
+package tej.imageconverter;
 
 import org.junit.Test;
 

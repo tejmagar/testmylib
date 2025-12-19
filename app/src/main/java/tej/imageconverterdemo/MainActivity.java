@@ -8,6 +8,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.nio.ByteBuffer;
+
 import tej.imageconverter.ImageConverter;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        System.out.println(ImageConverter.convert(1, 2));
+        ByteBuffer byteBuffer = ByteBuffer.allocate(4);
+        byte[] bytes = ImageConverter.bytes_from_raw(4, 4, 4, 6,  byteBuffer, "png");
+
     }
 }

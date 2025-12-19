@@ -1,4 +1,4 @@
-package tej.imageconverterdemo;
+package tej.imageconverter;
 
 import android.content.Context;
 
